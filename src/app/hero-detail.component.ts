@@ -12,8 +12,8 @@ import {HeroService} from './hero.service';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
-  templateUrl: 'app/hero-detail.component.html',
-  styleUrls: ['app/hero-detail.component.css']
+  templateUrl: './hero-detail.component.html',
+  styleUrls: ['./hero-detail.component.css']
 })
 
 export class HeroDetailComponent implements OnInit {
